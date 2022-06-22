@@ -1,6 +1,7 @@
 name = input("What is your name? ")
 print("Hello " + name)
 age = input("thank you for that information, how old are you? ")
+
 -------------------------------------------------------------------------------
 -above is my first attempt at creating a system used to gather customer information. at this point its extremely simple but i believe i can make it better on line 3 
 to be more accurate in gaining an age. but also after some research sometimes simple is better however id like to practice so im going to move forward with a different line on line 3
@@ -11,6 +12,7 @@ print("Hello " + name)
 birth_year = input("thank you, could you please enter your birth year? ")
 age = (2022 - birth_year)
 print(age)
+
 -----------------------------------------------------------------------------------
 
 -now i have attempted to have the computer calculate the age based off the users birth year. unfortunately at line 12-13 instead of printing the desired "age" 
