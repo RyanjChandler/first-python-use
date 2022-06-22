@@ -24,6 +24,8 @@ so im looking aat rewriting that line slightly different in an attempt to fix th
 after some research online it seems i was wrong. the error was because i tried to subtract a string from intenger which essentially means im trying to subtract one value
 from another that arent compatible. literally comparing apples to oranges. somehow i need to convert the value so i will take time as im writing this to do so. in this
 case it appears id need to use "int(birth_year)" to replace the "birth_year" in the code. lets try that and see how it works.
+  
+  
 -----------------------------------------------------------------------------------------
 
 code as written now:
@@ -35,9 +37,13 @@ age = 2022 - int(birth_year)
 print(age)
 
 ----------------------------------------------------------------------------------
+  
+  
 it appears to have worked! now when i put in my name/ birthyear it will retain that information. now i think id like to refine the birthdate from more than a year toa birth month as well.
 i believe it would help the accuracy of the information as i am 21 and turning 22 next month however that code would print im 22 not 21 as its calculating only based off years.
 i will revise at a later date. for now this is my first independant python code!
+  
+  
 -----------------------------------------------------------------------------------
 
 
@@ -54,4 +60,6 @@ What is your name? ryan
 Hello ryan
 thank you, could you please enter your birth year? 2000
 22
+  
+  
 ---------------------------------------------------------------------------------------
