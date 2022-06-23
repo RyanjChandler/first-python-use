@@ -1,9 +1,9 @@
 # My First Python String
 ------------------------------------------------------------------------------
 
-name = input("What is your name? ")
+``name = input("What is your name? ")
 print("Hello " + name)
-age = input("thank you for that information, how old are you? ")
+age = input("thank you for that information, how old are you? ")``
 
 --------------------------------------------------------------------------------
 <Above is my first attempt at creating a system used to gather customer information. at this point its extremely simple but i believe i can make it better on line 3 
