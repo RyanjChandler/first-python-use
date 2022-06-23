@@ -1,3 +1,6 @@
+# My First Python String
+
+
 name = input("What is your name? ")
 print("Hello " + name)
 age = input("thank you for that information, how old are you? ")
