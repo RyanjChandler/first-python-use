@@ -5,10 +5,10 @@ name = input("What is your name? ")
 print("Hello " + name)
 age = input("thank you for that information, how old are you? ")
 
-
+--------------------------------------------------------------------------------
 <above is my first attempt at creating a system used to gather customer information. at this point its extremely simple but i believe i can make it better on line 3 
 to be more accurate in gaining an age. but also after some research sometimes simple is better however id like to practice so im going to move forward with a different line on line 3>
-
+---------------------------------------------------------------------------------
 
 name = input("What is your name? ")
 print("Hello " + name)
