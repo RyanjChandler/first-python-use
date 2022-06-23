@@ -10,11 +10,11 @@ age = input("thank you for that information, how old are you? ")`
 to be more accurate in gaining an age. but also after some research sometimes simple is better however id like to practice so im going to move forward with a different line on line 3>
 ---------------------------------------------------------------------------------
 
-name = input("What is your name? ")
+`name = input("What is your name? ")
 print("Hello " + name)
 birth_year = input("thank you, could you please enter your birth year? ")
 age = (2022 - birth_year)
-print(age)
+print(age)`
 
 -----------------------------------------------------------------------------------
 
@@ -33,11 +33,11 @@ case it appears id need to use "int(birth_year)" to replace the "birth_year" in 
 
 ##code as written now:
 
-name = input("What is your name? ")
+`name = input("What is your name? ")
 print("Hello " + name)
 birth_year = input("thank you, could you please enter your birth year? ")
 age = 2022 - int(birth_year)
-print(age)
+print(age)`
 
 ----------------------------------------------------------------------------------
   
